@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - Kerajaan Pasai</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-crown"></i>
+                <span>Kerajaan Pasai</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Beranda</a>
+                <a href="sejarah.html" class="nav-link">Sejarah</a>
+                <a href="galeri.html" class="nav-link active">Galeri</a>
+                <a href="tentang.html" class="nav-link">Tentang</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <a href="index.html" class="back-btn">
+                    <i class="fas fa-arrow-left"></i>
+                    Kembali ke Beranda
+                </a>
+                
+                <div class="page-title-section">
+                    <div class="page-badge">
+                        <i class="fas fa-camera"></i>
+                        Koleksi Foto
+                    </div>
+                    <h1 class="page-title gradient-text">Galeri Peninggalan</h1>
+                    <p class="page-subtitle">Jelajahi koleksi foto peninggalan bersejarah Kerajaan Pasai yang masih terjaga hingga kini</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-filters">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="makam">Makam Bersejarah</button>
+                    <button class="filter-btn" data-filter="arsitektur">Arsitektur Religius</button>
+                    <button class="filter-btn" data-filter="situs">Situs Bersejarah</button>
+                    <button class="filter-btn" data-filter="artefak">Artefak</button>
+                    <button class="filter-btn" data-filter="prasasti">Prasasti</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-grid">
+            <div class="container">
+                <div class="gallery-container">
+                    
+                    <div class="gallery-item" data-category="makam">
+                        <div class="gallery-image">
+                            <img src="Makam Sultan Al-Malik Ash-Shalih yang wafat pada 696 H1297 M di Gampong Beuringen, Samudera, Aceh Utara. (Foto CISAH).jpg" alt="Makam Sultan Malik as-Saleh" />
+                            <div class="gallery-overlay">
+                                <div class="gallery-badges">
+                                    <span class="gallery-year">Abad ke-13</span>
+                                    <span class="gallery-category">Makam Bersejarah</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Makam Sultan Malik as-Saleh</h3>
+                            <p>Makam pendiri Kerajaan Pasai yang terletak di Geudong, Aceh Utara. Kompleks makam ini menjadi salah satu situs bersejarah terpenting yang menandai awal mula Islam di Nusantara.</p>
+                            <div class="gallery-location">
+                                <i class="fas fa-map-pin"></i>
+                                Aceh Utara
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="arsitektur">
+                        <div class="gallery-image">
+                            <img src="masjid samudera pasai.jpg" alt="Masjid Kuno Pasai" />
+                            <div class="gallery-overlay">
+                                <div class="gallery-badges">
+                                    <span class="gallery-year">Abad ke-13-14</span>
+                                    <span class="gallery-category">Arsitektur Religius</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Masjid Kuno Pasai</h3>
+                            <p>Reruntuhan masjid kuno yang menjadi saksi perkembangan arsitektur Islam awal di Nusantara. Struktur bangunan menunjukkan perpaduan gaya arsitektur Islam dan lokal Aceh.</p>
+                            <div class="gallery-location">
+                                <i class="fas fa-map-pin"></i>
+                                Aceh Utara
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="situs">
+                        <div class="gallery-image">
+                            <img src="situs-makam-makam-raja-kesultanan-samudera-pasai-_140708110241-393.jpg" alt="Kompleks Makam Sultan" />
+                            <div class="gallery-overlay">
+                                <div class="gallery-badges">
+                                    <span class="gallery-year">Abad ke-13-15</span>
+                                    <span class="gallery-category">Situs Bersejarah</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Kompleks Makam Sultan</h3>
+                            <p>Kompleks pemakaman para sultan Pasai dengan arsitektur khas Islam Melayu. Batu nisan dengan kaligrafi Arab yang indah menceritakan sejarah para pemimpin kerajaan.</p>
+                            <div class="gallery-location">
+                                <i class="fas fa-map-pin"></i>
+                                Aceh Utara
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="artefak">
+                        <div class="gallery-image">
+                            <img src="5775_sumber-foto-riqialfblogspotcom.jpg" alt="Lonceng Cakra Donya" />
+                            <div class="gallery-overlay">
+                                <div class="gallery-badges">
+                                    <span class="gallery-year">Abad ke-13-16</span>
+                                    <span class="gallery-category">Artefak</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Lonceng Cakra Donya</h3>
+                            <p>Lonceng Cakra Donya merupakan salah satu peninggalan Kerajaan Samudera Pasai. Lonceng tersebut diperkirakan dibuat pada tahun 1409 M dan merupakan hadiah Laksamana Cheng Ho dari Kekaisaran Cina. Lonceng Cakra Donya terbuat dari besi berbentuk stupa dengan tinggi 125 cm dan lebar 75 cm. Lonceng ini merupakan lonceng tertua dan terbesar di Indonesia</p>
+                            <div class="gallery-location">
+                                <i class="fas fa-map-pin"></i>
+                                Aceh Utara
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="arsitektur">
+                        <div class="gallery-image">
+                            <img src="koin.jpg" alt="Koin Dirham" />
+                            <div class="gallery-overlay">
+                                <div class="gallery-badges">
+                                    <span class="gallery-year">Abad ke-14</span>
+                                    <span class="gallery-category">Koin Dirham</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Koin Dirham</h3>
+                            <p>Selain menjadi mata uang Arab pada zaman nabi, dirham juga digunakan sebagai mata uang di era Kerajaan Samudra Pasai. Dirham atau deureuham merupakan koin yang terbuat dari emas murni yang dicetak pertama kali oleh Sultan Muhammad pada masa pemerintahannya sekitar 1297-1326 Masehi</p>
+                            <div class="gallery-location">
+                                <i class="fas fa-map-pin"></i>
+                                Aceh Utara
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="prasasti">
+                        <div class="gallery-image">
+                            <img src="Stempel-Kerajaan.jpg" alt="Stampel Sultan Muhammad Al Malik Az-Zahir" />
+                            <div class="gallery-overlay">
+                                <div class="gallery-badges">
+                                    <span class="gallery-year">Abad ke-13-15</span>
+                                    <span class="gallery-category">Prasasti</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <h3>Stampel Sultan Muhammad Al Malik Az-Zahir</h3>
+                            <p>Stempel ini ditemukan dalam keadaan tidak utuh (tidak ada gagang) oleh seorang pematang tambak  di Desa Kuta Krueng, Kecamatan Samudera, Aceh Utara. Stempel tersebut diperkirakan milik sultan kedua Samudra Pasai, Muhammad al-Malik Az-Zahir yang diperkirakan berusia lebih dari 683 tahun mengingat wafatnya sang sultan sekitar tahun 726 Hijriyah. Dalam stempel ini terdapat kaligrafi Kufi berisi kalimat Mamlakah Muhammad.</p>
+                            <div class="gallery-location">
+                                <i class="fas fa-map-pin"></i>
+                                Aceh Utara
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal untuk gambar -->
+        <div id="imageModal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close">&times;</span>
+                <img id="modalImage" src="" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-crown"></i>
+                        <h3>Kerajaan Pasai</h3>
+                    </div>
+                    <p>Website ensiklopedia digital yang menyajikan informasi lengkap tentang sejarah Kerajaan Pasai.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Sumber Gambar</h4>
+                    <ul>
+                        <li>Museum Nasional Indonesia</li>
+                        <li>Dinas Kebudayaan Aceh</li>
+                        <li>Koleksi Arkeologi</li>
+                        <li>Dokumentasi Penelitian</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="sejarah.html">Sejarah</a></li>
+                        <li><a href="tentang.html">Tentang</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ensiklopedia Kerajaan Pasai. Dibuat untuk keperluan edukasi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
